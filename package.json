@@ -16,9 +16,9 @@
   "homepage": "",
   "version": "1.0.0",
   "scripts": {
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc"
+    "start": "node init && node dist/server.js",
+    "dev": "node init && ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@types/nodemailer": "^6.4.17",
@@ -35,6 +35,7 @@
     "mongoose": "^8.9.5",
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0",
+    "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.16",
     "pdfkit": "^0.16.0",
     "sslcommerz-lts": "^1.1.0",

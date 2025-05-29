@@ -12,7 +12,6 @@ pids
 *.pid.lock
 
 # Environment Variables
-.env
 
 # Node modules
 node_modules/
@@ -30,7 +29,6 @@ bower_components/
 
 # IDE and editor files
 .idea/
-.vscode/
 *.swp
 
 # OS-generated files
@@ -55,3 +53,8 @@ pnpm-lock.yaml
 bun.lock
 yarn.lock
 .vercel
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
+config.bat
