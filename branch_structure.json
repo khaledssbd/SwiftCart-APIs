@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "Khaled/Payment",
+    "farsit/shop",
+    "main",
+    "nazim/open",
+    "rakibmia/api",
+    "rashedul"
+  ],
+  "parent": {
+    "Khaled/Payment": "main",
+    "farsit/shop": "main",
+    "main": null,
+    "nazim/open": "main",
+    "rakibmia/api": "main",
+    "rashedul": "main"
+  },
+  "order": [
+    "main",
+    "Khaled/Payment",
+    "farsit/shop",
+    "nazim/open",
+    "rakibmia/api",
+    "rashedul"
+  ]
+}
